@@ -41,14 +41,14 @@ public class Topic_01_CheckEnvironment {
 	@Test
 	public void TC_02_ValidatePageTitle() {
 		// Login Page title
-//		String loginPageTitle = driver.getTitle();
-//		Assert.assertEquals(loginPageTitle, "Guru99 Bank Home Page");
+		String loginPageTitle = driver.getTitle();
+		Assert.assertEquals(loginPageTitle, "Guru99 Bank Home Page");
 	}
 
 	@Test
 	public void TC_03_LoginFormDisplayed() {
 		// Login form displayed
-//		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
 	}
 
 	@AfterClass
