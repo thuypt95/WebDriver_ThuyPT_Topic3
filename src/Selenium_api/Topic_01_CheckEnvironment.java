@@ -18,9 +18,10 @@ public class Topic_01_CheckEnvironment {
 	@BeforeClass
 	public void beforeClass() {
 		
-		 driver = new FirefoxDriver(); driver.manage().timeouts().implicitlyWait(30,
+		 driver = new FirefoxDriver(); 
+		 driver.manage().timeouts().implicitlyWait(30,
 		 TimeUnit.SECONDS); driver.manage().window().maximize();
-		 driver.get("http://demo.guru99.com/v4/");
+		 driver.get("http://live.demoguru99.com/");
 		 
 
 			/*
